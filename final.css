@@ -1,0 +1,63 @@
+body {
+	background-color: gray;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+}
+
+.carousel-inner img {
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+.row {
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+#lcScroll {
+	background-color: LightGray;
+	height: 75px;
+	overflow-y: scroll;
+	overflow-x: auto;
+}
+
+.logo {
+	width: 20px;
+	height: auto;
+}
+
+h4 {
+	font-size: 24pt;
+}
+
+.syllabus {
+	border-radius: 12px;
+	background-color: white;
+	border: 2px solid skyblue;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.syllabus:hover {
+	background-color: skyblue;
+	color: white;
+}
+
+.bigBullet {
+	font-weight: bold;
+	font-size: 16pt;
+}
+
+#feedback {
+	display:block;
+	width: 1120px;
+	height: 150px;
+}
